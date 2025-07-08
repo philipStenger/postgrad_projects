@@ -1,0 +1,14 @@
+# Parent requirements.in file
+# This file references all sub-project requirements
+# Run: pip-compile requirements.in
+# To update: pip-compile --upgrade requirements.in
+
+-r continual_learning_playground/requirements.txt
+-r evo_alg_playground/requirements.txt
+-r rl_playground/requirements.txt
+
+# Additional shared development tools (optional)
+# pip-tools
+# jupyter
+# black
+# flake8
