@@ -1,0 +1,9 @@
+[submodule "continual_learning_playground"]
+	path = continual_learning_playground
+	url = git@github.com:philipStenger/continual_learning_playground.git
+[submodule "evo_alg_playground"]
+	path = evo_alg_playground
+	url = git@github.com:philipStenger/evo_alg_playground.git
+[submodule "rl_playground"]
+	path = rl_playground
+	url = git@github.com:philipStenger/rl_playground.git
