@@ -1,6 +1,6 @@
 # Postgraduate Projects
 
-A collection of research and experimentation projects for postgraduate studies.
+A collection of research and experimentation projects relating to robot learning.
 
 ## Projects
 
