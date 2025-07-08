@@ -15,25 +15,18 @@ RL algorithms and environments including Q-Learning, DQN, REINFORCE, and OpenAI 
 
 ## Quick Start
 
-### Option 1: Install all dependencies at once
 ```bash
 # Install pip-tools
 pip install pip-tools
+python -m venv env
+env\Scripts\activate  # Windows Powershell
+source env/Scripts/activate # Bash 
 
 # Generate consolidated requirements
 pip-compile requirements.in
 
 # Install all dependencies
 pip install -r requirements.txt
-```
-
-### Option 2: Work with individual projects
-```bash
-cd continual_learning_playground
-python -m venv env
-env\Scripts\activate  # Windows
-pip install -r requirements.txt
-python main.py
 ```
 
 ## Dependency Management
